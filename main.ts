@@ -3,7 +3,7 @@
     - readline
 */
 
-import * as readline from 'readline';
+import readline from 'readline';
 
 class ReadLineConsole {
   public rl: readline.Interface;
