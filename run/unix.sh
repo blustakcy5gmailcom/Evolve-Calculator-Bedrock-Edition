@@ -4,3 +4,4 @@ curl -s https://raw.githubusercontent.com/blustakcy5gmailcom/Evolve-Calculator-B
 
 npx ts-node ./temp_evolvecalculator.ts
 rm ./temp_evolvecalculator.ts
+#
