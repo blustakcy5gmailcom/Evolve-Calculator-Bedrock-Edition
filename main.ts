@@ -2,6 +2,7 @@
     Required Dependencies
     - readline
 */
+console.log("started");
 
 import readline from 'readline';
 
