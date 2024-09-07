@@ -6,6 +6,6 @@ temp_file="./temp_evolvecalculator.ts"
 
 echo "$content" > "$temp_file"
 
-ts-node --esm "$temp_file"
+npx ts-node --esm "$temp_file"
 
 rm "$temp_file"
