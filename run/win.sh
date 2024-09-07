@@ -7,5 +7,3 @@ set "temp_file=%temp%\temp_script_evolvecalculator.ts"
 echo %content% > "%temp_file%"
 
 ts-node "%temp_file%"
-
-del "%temp_file%"
