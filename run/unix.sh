@@ -1,0 +1,11 @@
+#!/bin/bash
+
+content=$(curl -s https://raw.githubusercontent.com/blustakcy5gmailcom/Evolve-Calculator-Bedrock-Edition/main/main.ts)
+
+temp_file=$(mktemp)
+
+echo "$content" > "$temp_file"
+
+ts-node "$temp_file"
+
+rm "$temp_file"
